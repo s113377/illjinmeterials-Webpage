@@ -1,4 +1,3 @@
-[일진머터리얼즈 결과보고.pptx](https://github.com/s113377/illjinmeterials-Webpage/files/7026802/default.pptx)
 # illjinmeterials-Webpage
 메인페이지 하단 콘텐츠들이 정렬되지 않은 부분들을 Flex 방식으로 정렬하여 사용자가 비교적 콘텐츠들을 쉽게 접할 수 있도록 구현
 서브페이지 제품소개 페이지에서 제품 설명을 확인할 때, 모든 제품들을 한 페이지 영역안에서 접할 수 있도록 구현  
