@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일진머터리얼즈(MAIN)</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- 제이쿼리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Boxicon-->
+    <script src="https://unpkg.com/boxicons@2.0.8/dist/boxicons.js"></script>
+    <!--swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- 사용자 자바스크립트 -->
+    <script src="main.js"></script>
+</head>
+<body>
+  <!--header-->
+    <header>
+        <div class="container">
+          <h1>
+            <a href="./index.html">
+              <img src="./images/logo1.png" alt="일진머티리얼즈">
+            </a>
+          </h1>
+          <nav>
+            <ul>
+              <li><a href="./index.html">HOME</a></li>
+              <li><a href="#">회사소개</a>
+                <ul class="depth2">
+                  <li><a href="./SUB1-1.html">기업개요</a></li>
+                  <li><a href="#">핵심목표</a></li>
+                  <li><a href="#">핵심가치</a></li>
+                  <li><a href="#">연혁</a></li>
+                </ul>
+              </li>
+              <li><a href="#">제품소개</a>
+                <ul class="depth2">
+                  <li><a href="./SUB2-1.html">Elecfoil 사업</a></li>
+                  <li><a href="#">Energy 사업</a></li>
+                  <li><a href="#">관계사</a></li>
+                </ul>
+              </li>
+              <li><a href="./SUB3-1.html">오시는 길</a>
+                <ul class="depth2">
+                  <li><a href="./SUB3-1.html">오시는 길</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section id="mainVisual">
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="./images/main-1.jpg" alt="main1">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/main-2.jpg" alt="main2">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/main-3.jpg" alt="main3">
+            </div>
+          </div>
+          <div class="swiper">
+              <button type="button" class="swiper-button-next" style="color:  #fff; ; border: none; background-color: transparent;position: absolute; transform: translateX(-50px) translateY(50%);" ></button>
+              <button type="button" class="swiper-button-prev" style="color : #fff; border: none; background-color:transparent; position: absolute; transform: translateX(50px) translateY(50%);"></button>
+          </div>            
+        </div>
+      </section>
+      <section id="main">
+        <div class="container">
+          <div class="col">
+            <img src="./images/main_col_1.png" alt="1">
+            <div class="text">
+              <h4>연구개발</h4>
+              <p>Elecfoil 분야에서 세계 수준의 독자적인<br>
+                기술 개발을 지속하고 있습니다.</p>
+              <div class="btn"><a href ="#">자세히 보기</a></div>
+            </div>
+          </div><!-- end col -->
+          <div class="col">
+            <img src="./images/main_col_2.png" alt="2">
+            <div class="text">
+              <h4>카탈로그</h4>
+              <p>회사소개서,제품카탈로그 등<br>
+                다양한 정보를 보실 수 있습니다.</p>
+                <div class="btn"><a href ="#">자세히 보기</a></div>
+            </div>
+          </div><!-- end col -->
+          <div class="col">
+            <img src="./images/main_col_3.png" alt="3">
+            <div class="text">
+              <h4>고객문의</h4>
+              <p>사업,제품,투자,기술 등 <br>
+                성실하게 답변 드리겠습니다.</p>
+            </div>
+            <div class="btn"><a href ="#">자세히 보기</a></div>
+          </div><!-- end col -->
+        </div><!-- end container -->
+      </section>
+    
+    <!--footer-->
+      <footer>
+        <div class="container">
+          <ul class="footerMenu">
+            <li><a href="#">개인정보취급방침<span>|</span></a></li>
+            <li><a href="#">이메일무단수집거부<span>|</span></a></li>
+            <li><a href="#">법적고지<span>|</span></a></li>
+            <li><a href="#">이메일문의</a></li>
+          </ul>
+          <p class="address">서울특별시 마포구 마포대로 45(도화동) <span>|</span> 전화 : 02-707-9130 (주식사무담당)<span>|</span>팩스 : 02-6958-6226</p>
+          <p class="copy">© ILJIN MATERIALS CO., Ltd. ALL RIGHTS RESERVED
+          </p>
+        </div><!-- end container -->
+      </footer>
+</body>
+</html>
